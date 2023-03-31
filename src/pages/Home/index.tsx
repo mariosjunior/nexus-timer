@@ -89,7 +89,6 @@ export function Home() {
       }),
     )
     setActiveCycleId(null)
-    console.log(cycles)
   }
 
   const totalSeconds = activeCycle ? activeCycle.minutesAmount * 60 : 0
