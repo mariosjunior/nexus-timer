@@ -121,6 +121,8 @@ export function Home() {
   useEffect(() => {
     if (activeCycle) {
       document.title = `- ${minutes}:${seconds} -`
+    } else {
+      document.title = 'Nexus Timer'
     }
   }, [minutes, seconds, activeCycle])
 
